@@ -1,0 +1,89 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+.vs/
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+out/
+Ankh.NoLoad
+
+#user files
+*.user
+
+#NCrunch
+*.ncrunchsolution
+
+
+#MonoDevelop
+*.pidb
+*.userprefs
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+build-artifacts/
+
+#Parameters
+scripts.zip
+scripts_package.zip
+
+#Version file
+version/Version.cs
+
+#Vim temp files
+*~
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+#NuGet
+packages/
+
+#ncrunch
+_NCrunch*
+_NCrunch_application.Search/
+*crunch*.local.xml
+nCrunchTemp_*
+
+#ruby
+gems/
+Gemfile.lock
+
+#Resharper
+*.DotSettings
+
+#Vagrant
+.vagrant/
