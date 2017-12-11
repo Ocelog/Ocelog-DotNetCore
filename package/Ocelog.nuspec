@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Ocelog-DotNetCore</id>
+    <version>1.0.0</version>
+    <authors>Andy Lowry, Andy Kindleysides</authors>
+    <owners>Andy Lowry, Andy Kindleysides</owners>
+    <licenseUrl>https://github.com/Ocelog/Ocelog-DotNetCore/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Ocelog/Ocelog-DotNetCore</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Ocelog/Ocelog-DotNetCore/master/Ocelog_icon.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Ocelog is a logging library designed to make Structured logging of objects (not messages) easy</description>
+    <releaseNotes>Ported to DotNetCore 2.0</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Logging .net Logstash Structured</tags>
+    <dependencies>
+      <dependency id="System.Reactive.Core" version="3.1.1" />
+      <dependency id="System.Reactive.Interfaces" version="3.1.1" />
+      <dependency id="System.Reactive.Linq" version="3.1.1" />
+      <dependency id="Newtonsoft.Json" version="6.0.8" />
+    </dependencies>
+  </metadata>
+</package>
